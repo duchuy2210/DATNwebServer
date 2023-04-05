@@ -1,0 +1,42 @@
+{
+  "name": "webserveplcs71200",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duchuy2210/DATNwebServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duchuy2210/DATNwebServer/issues"
+  },
+  "homepage": "https://github.com/duchuy2210/DATNwebServer#readme",
+  "dependencies": {
+    "@firebase/database": "^0.14.4",
+    "app-root-path": "^3.1.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "firebase": "^9.19.1",
+    "jquery": "^3.6.4",
+    "lodash": "^4.17.21",
+    "nodes7": "^0.3.18",
+    "npm": "^9.6.2",
+    "save": "^2.9.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
